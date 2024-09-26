@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Week3webpage</title>
+</head>
+<body>
+    <h1 style="color: blueviolet;">Frida Kahlo</h1>
+    <p>Frida Kahlo was a famous surrealist painter who endured considerable pain despite her fame.
+    </p>
+    <img scr="https://kuadros.com/cdn/shop/articles/6d84fef20e20ab2a1343f8b9ac172f02.jpg?v=1616860839" alt="Frida self"/>
+</body>
+</html>
