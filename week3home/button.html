@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MakeButton</title>
+    <link rel="stylesheet" href="button.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Welcome to Rabbit Gallery</h1>
+            <ul>
+                <li><a href="button.html">Rabbits</a></li>
+                <li><a href="cats.html">Cats</a></li>
+                <li><a href="dogs.html">Dogs</a></li>
+            </ul>
+        </nav>
+
+    <body>
+        <div class="button-container">
+            <button onclick="changeImage('images/r1.jpg')">
+                <img src="images/r1.jpg">
+            </button>
+
+            <button onclick="changeImage('images/r2.jpeg')">
+                <img src="images/r2.jpeg">
+            </button>
+
+            <button onclick="changeImage('images/r3.jpeg')">
+                <img src="images/r3.jpeg">
+            </button>
+            
+            <button onclick="changeImage('images/r4.jpg')">
+                <img src="images/r4.jpg">
+            </button>
+        </div>
+
+        <div class="container">
+            <div class="LargerImage">
+            <img id="MainImage" src="images/r1.jpg" alt="A cute white-brown rabbit">
+        </div>
+    </body>
+</header>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
