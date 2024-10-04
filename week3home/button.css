@@ -36,16 +36,14 @@ header nav a {
     text-decoration: none;
 }
 
-header nav a:hover {
-    text-decoration: underline; 
-}
-
 .container {
     text-align: center;
 }
 
 .large-image {
     margin-bottom: 20px;
+    width: 400px;
+    height:auto;
 }
 
 .large-image img {
@@ -76,3 +74,11 @@ button img {
     width: 100px;
     height:auto;
 }
+
+.start {
+    color: rgb(15, 0, 128);
+  }
+  .stop {
+    color: rgb(133, 15, 15);
+  }
+  
