@@ -52,3 +52,10 @@ section img {
     display: inline-block; 
     margin: 10px auto; 
 }
+
+section video {
+  max-width: 100%; 
+  height: auto;  
+  display: inline-block; 
+  margin: 10px auto; 
+}
