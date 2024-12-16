@@ -1,0 +1,131 @@
+/* 全局样式重置 */
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5F2F0; /* 莫兰迪米白色背景 */
+    color: #5B5B5B; /* 深灰色文字 */
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Canvas样式 */
+canvas {
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* 页头样式 */
+header {
+    background-color: #E8E1DD; /* 莫兰迪粉灰色 */
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #D8D0CC;
+}
+
+header h1 {
+    color: #8B8589; /* 莫兰迪紫灰色 */
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+/* 内容区域样式 */
+.sections {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: #FFFFFF;
+    margin-bottom: 50px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+/* 标题样式 */
+h2 {
+    color: #A39B98; /* 莫兰迪褐色 */
+    font-size: 1.8em;
+    font-weight: 400;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 2px;
+    background-color: #D4CAC8; /* 莫兰迪浅粉色 */
+}
+
+/* 段落样式 */
+p {
+    color: #716B6A;
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin: 20px 0;
+}
+
+/* 媒体内容样式 */
+section img,
+section video {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 25px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+section img:hover,
+section video:hover {
+    transform: scale(1.02);
+}
+
+/* 响应式设计 */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 30px 15px;
+    }
+    
+    header h1 {
+        font-size: 2em;
+    }
+    
+    section {
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+    }
+    
+    p {
+        font-size: 1em;
+    }
+    
+    section img,
+    section video {
+        max-width: 100%;
+    }
+}
